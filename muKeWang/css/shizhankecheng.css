@@ -1,0 +1,56 @@
+
+.shizhankecheng{
+	width:1150px;
+	margin:0 auto;
+	margin-top:40px;
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+.szkc_le{background:#F8FAFC;float: left;width: 225px;}
+.szkc_le h3{
+	padding: 20px 0;
+	margin:0 30px 0 20px;
+	border-top: 1px solid #ccc;
+}
+.szkc_le ul{
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.szkc_le ul li{}
+.szkc_le ul li a{
+	color:#000;
+	display: block;
+	padding:0 0 0 54px;
+	line-height: 65px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+.szkc_le ul li a span{
+	font-size: 12px;
+	display: block;
+	float: right;
+	margin-right: 30px;
+	color:#ccc;
+}
+.szkc_le ul li a:hover{
+	background: #F3F5F7;
+	color: #f01414;
+}
+.szkc_le ul li a:hover span{color: #f01414;}
+
+.szkc_ri{float:left;overflow: hidden;width: 875px;margin-left: 50px;}
+.szkc_ri .kc_lujing{
+	color:#999;
+	font-size: 12px;
+	height: 43px;
+	line-height: 28px;
+	border-bottom: 1px solid #D0D6D9;
+}
+.kc_lujing span{color:#000;}
+.szkc_ri ul li{border-bottom: 1px solid #D0D6D9;padding: 30px 0 30px 30px;}
+.szkc_ri ul li h3{}
+.szkc_ri ul li h3 a{color:#000;}
+.szkc_ri ul li p{color:#787d82;font-size: 12px;margin-top: 20px}
+.szkc_ri ul li .chakan a{color:#787d82;}
+.szkc_ri ul li .chakan a:hover{	color: #f01414;}

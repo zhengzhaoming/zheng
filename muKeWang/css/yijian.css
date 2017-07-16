@@ -1,0 +1,145 @@
+main{
+	width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+}
+/*内容的左边*/
+main .conte_le{
+	width: 825px;
+	float: left;
+}
+/*意见反馈标题*/
+.conte_le .title{
+	font-size: 16px;
+	height: 55px;
+	border-bottom: 1px solid #999;
+	line-height: 55px;
+}
+/*4个单选项*/
+.conte_le .conte_bt{
+	margin-left: 25px;
+}
+.conte_bt .radio{
+	color: #5E666E;
+	font-size: 14px;
+	margin:30px 0;
+}
+.radio span{margin-right: 20px;}
+.radio span input{margin-right: 10px;}
+
+.srk{position: relative;margin-bottom: 30px;}
+.srk textarea{
+	resize: none;
+	width:758px;
+	height: 118px;
+	outline: none;
+	font-size: 16px;
+	padding: 10px;
+	border:1px solid #ccc;
+}
+.srktext::-webkit-input-placeholder { /* WebKit browsers*/ 
+	color:#ccc;font-size:14px;
+　　}
+.srktext:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+	color:#ccc;font-size:14px;
+　　}
+.srktext::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+	color:#ccc;font-size:14px;
+　　}
+.srktext:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+	color:#ccc;font-size:14px;
+}
+.srk span{
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	right: 55px;
+	color:#666;
+	font-size: 14px;
+}
+.file input{
+	width: 82px;
+	height: 82px;
+	background: url(../img/file.png) no-repeat center center;
+	border:1px solid #ccc;
+}
+.file p{
+	margin:20px 0;
+	color: #666;
+	font-size: 14px;
+}
+.file p span{color: red}
+
+.phonetext{margin:30px 0;}
+.phonetext input{
+	width: 758px;
+	padding:0 10px;
+	height: 38px;
+	border:1px solid #ccc;
+}
+.phonetext::-webkit-input-placeholder { /* WebKit browsers*/ 
+	color:#ccc;font-size:14px;
+　　}
+.phonetext:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+	color:#ccc;font-size:14px;
+　　}
+.phonetext::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+	color:#ccc;font-size:14px;
+　　}
+.phonetext:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+	color:#ccc;font-size:14px;
+}
+
+.url{
+	margin:50px 0 30px 0;
+	width: 740px;
+	background: #F4F7F8;
+	padding: 20px 20px 30px;
+}
+.url p{
+	color:#999;
+	font-size: 14px;
+}
+.url input{
+	width: 718px;
+	padding:0 10px;
+	height: 38px;
+	border:1px solid #ccc;
+}
+.tijiao{
+	width: 780px;
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.tijiao input{
+	color:#fff;
+	background: #39B94E;
+	font-size: 14px;
+	width: 120px;
+	height: 50px;
+	float: right;
+	border:0;
+	outline: none;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.tijiao input:hover{background:#319E43}
+
+/*右侧部分*/
+.conte_ri{
+	float: right;
+}
+.conte_ri h4{
+	margin-bottom: 30px;
+}
+.conte_ri .Qqun{
+	background: #F3F5F7;
+	padding: 40px 70px 35px 25px;
+	margin-top:20px;
+}
+.Qqun ul li{
+	margin-top:10px; 
+	color: #585858;
+	font-size: 14px;
+}
